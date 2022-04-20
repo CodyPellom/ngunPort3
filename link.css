@@ -54,29 +54,28 @@ a {
 }
 
 .grid-image-container {
-    overflow: hidden;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
     height: 300px;
+    width: 250px;
+    border: solid darkgray 5px;
 }
 
 .grid-image-1 {
-    height: 300px;
-    width: 375px;
-    margin-right: 50px;
+ 
 }
 
 .grid-image-2 {
-    height: 400px;
-    width: 400px;
+ 
 }
 
 .grid-image-3 {
-    height: 440px;
-    width: 400px;
+ 
 }
 
 .grid-image-4 {
-    height: 300px;
-    width: 600px;
+ 
 }
 
 .hero-section h1 {

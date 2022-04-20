@@ -26,7 +26,7 @@ a {
     font-family: 'Square Peg' !important;
     color: rgb(21, 70, 184) !important;
     margin-left: 25px;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -58,9 +58,25 @@ a {
     height: 300px;
 }
 
-.grid-image {
+.grid-image-1 {
     height: 300px;
-    width: 200px;
+    width: 375px;
+    margin-right: 50px;
+}
+
+.grid-image-2 {
+    height: 400px;
+    width: 400px;
+}
+
+.grid-image-3 {
+    height: 440px;
+    width: 400px;
+}
+
+.grid-image-4 {
+    height: 300px;
+    width: 600px;
 }
 
 .hero-section h1 {

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Square+Peg&display=swap');
 
+/**
+colors
+hermesBlue -- #0258d1;
+darkBlue -- ##0a4291;
+*/
 body,
 html {
     background-color: whitesmoke;
@@ -24,7 +29,7 @@ a {
 
 .navbar-brand {
     font-family: 'Square Peg' !important;
-    color: rgb(21, 70, 184) !important;
+    color: #0258d1 !important;
     margin-left: 25px;
     font-size: 40px;
     font-weight: 900;
@@ -39,12 +44,12 @@ a {
     margin-right: 20px;
     margin-left: 20px;
     font-size: 18px;
-    color: rgb(21, 70, 184) !important;
+    color: #0258d1 !important;
     transition: color 1s;
 }
 
 .nav-link:hover {
-    color: darkblue !important;
+    color: #0a4291 !important;
 }
 
 .hero-section {
@@ -59,7 +64,6 @@ a {
     padding: 0;
     height: 300px;
     width: 250px;
-    border: solid darkgray 5px;
 }
 
 .grid-image-1 {

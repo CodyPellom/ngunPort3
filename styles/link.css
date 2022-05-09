@@ -28,11 +28,31 @@ p,
 a {
     font-family: 'Raleway';
 }
+#pre-navbar {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+
+#pre-navbar img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.pre-navbar-text {
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+.pre-navbar-text a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 .navbar {
     background-color: whitesmoke;
     position: fixed;
-    top: 0;
+    top: 50px;
     min-width: 100%;
 }
 
@@ -91,6 +111,10 @@ a {
     padding: 0;
     height: 300px;
     width: 250px;
+}
+
+.grid-img {
+    margin: 20px 0 20px 0;
 }
 
 .grid-image-1 {

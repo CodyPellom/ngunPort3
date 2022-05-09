@@ -8,7 +8,7 @@ const textOne = "I have been in the real estate industry for over 3 years and ha
 const textTwo = "My real world skills translate to you getting the best possible deal for buying a home or the most money when selling a home.";
 const textThree = "I have multiple customer and client testimonials of my humble service to the fantastic people I serve.";
 
-window.addEventListener('scroll', function(){
+/*window.addEventListener('scroll', function(){
     if (this.window.scrollY > 100) {
         anime({
             targets: nav,
@@ -29,6 +29,7 @@ window.addEventListener('scroll', function(){
         })
     }
 })
+*/
 
 function phoneBtnIntroAnimation() {
       var tl = anime.timeline({

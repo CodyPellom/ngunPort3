@@ -1,10 +1,61 @@
 /*Variables Start */
+let phoneBtn = document.getElementById('floatingPhoneCallButton');
+const nav = document.getElementById('navbar');
 const scrollBG = document.querySelector('.scrollmagic-pin-spacer');
 const subHeroBG = document.getElementById('scrollMagicSceneOne');
 const textToChange = document.getElementById('changingTextOne');
 const textOne = "I have been in the real estate industry for over 3 years and have been in customer service for over a decade.";
 const textTwo = "My real world skills translate to you getting the best possible deal for buying a home or the most money when selling a home.";
-const textThree = "I have multiple customer and client testimonials of my humble service to the fantastic people I serve."
+const textThree = "I have multiple customer and client testimonials of my humble service to the fantastic people I serve.";
+
+window.addEventListener('scroll', function(){
+    if (this.window.scrollY > 100) {
+        anime({
+            targets: nav,
+            opacity: 0,
+            easing: 'linear',
+            duration: 750,
+
+        })
+    }
+
+    else if (this.window.scrollY < 100) {
+        anime({
+            targets: nav,
+            opacity: 1,
+            easing: 'linear',
+            duration: 750,
+
+        })
+    }
+})
+
+function phoneBtnIntroAnimation() {
+      var tl = anime.timeline({
+        targets: phoneBtn,
+        easing: 'linear',
+        duration: 500
+      });
+      tl.add({
+        //delay: 1000,
+        opacity: 0,
+        //duration:  2500,
+      })
+      .add({
+        //delay: 1000,
+        opacity: 1,
+      }).add({
+        //delay: 1000,
+        opacity: 0,
+        //duration:  2500,
+      })
+      .add({
+        //delay: 1000,
+        opacity: 1,
+      });
+}
+phoneBtnIntroAnimation();
+
 /*Variables End */
 
 /**ScrollMagic Scene One */
